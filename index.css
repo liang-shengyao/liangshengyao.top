@@ -1,0 +1,379 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes move {
+    0% {
+
+        margin-left: 1%;
+        margin-right: 1%;
+
+    }
+
+    100% {
+        margin-left: 40%;
+        margin-right: 40%;
+
+
+        justify-content: space-around;
+    }
+}
+
+@keyframes up {
+    0% {
+        margin-top: 80%;
+        margin-bottom: 80%;
+    }
+
+    100% {
+        margin-block-start: 0.67em;
+    }
+}
+
+@keyframes go {
+    0% {
+        background: linear-gradient(to left, #0000ff 0%, #ff0000 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-top: 99%;
+    }
+
+    50% {
+        margin-top: 40%;
+        color: red;
+    }
+
+
+    100% {
+        color: black;
+        margin-top: 0%;
+    }
+
+}
+
+@keyframes op {
+    55% {
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: red;
+        padding: 80px;
+        border-radius: 80px;
+        color: white;
+
+    }
+
+    100% {
+        background-color: white;
+        padding: 1px;
+        border-radius: 8px;
+    }
+}
+
+@keyframes down {
+    0% {
+        color: #ff0000;
+        font-size: 1px;
+    }
+
+    100% {
+        text-align: center;
+        font-family: arial;
+        background: linear-gradient(to right, red, blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .h1 {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        background-color: rgb(80, 221, 246);
+        border-radius: 5px;
+        padding: 2px;
+
+        animation-name: up;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .Dynamic-Island {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        height: 30px;
+
+
+        display: flex;
+        justify-content: space-between;
+
+        animation-name: move;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .icon1 {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .main {
+        width: 100%;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .main {
+        animation-name: go;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .un {
+        animation-name: op;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .button {
+        animation-name: down;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+
+
+
+    .Apple {
+        background-color: rgb(52, 52, 52);
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 14px;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+
+    .buttom {
+        text-align: center;
+        background: none;
+        border-style: none;
+        font-size: 15px;
+        background: linear-gradient(to right,
+                rgb(0, 145, 255),
+                rgb(253, 7, 237),
+                rgb(255, 0, 47));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .hr {
+        border-bottom: 4px solid white;
+        border-radius: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+
+
+@media(min-width:600px) {
+    .h1 {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(80, 221, 246);
+        border-radius: 5px;
+        padding: 2px;
+        margin-left: 20%;
+        margin-right: 20%;
+
+        animation-name: up;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .Dynamic-Island {
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        height: 30px;
+
+
+        display: flex;
+        justify-content: space-between;
+
+        animation-name: move;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .icon1 {
+        padding: 7px;
+        font-size: 10px;
+    }
+
+    .main {
+        width: 100%;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .main {
+        animation-name: go;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .un {
+        margin-left: 20%;
+        margin-right: 20%;
+
+
+
+        animation-name: op;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .button {
+        animation-name: down;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+
+    .Apple {
+        background-color: rgb(52, 52, 52);
+        text-align: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 14px;
+    }
+
+    .hr {
+        border-bottom: 4px solid white;
+        border-radius: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .buttom {
+        text-align: center;
+        background: none;
+        border-style: none;
+        font-size: 20px;
+        background: linear-gradient(to right,
+                rgb(0, 145, 255),
+                rgb(253, 7, 237),
+                rgb(255, 0, 47));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    color: rgb(0, 255, 140);
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: rgb(22, 209, 222);
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+
+}
