@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+@keyframes move {
+    0% {
+        margin-top: 25%;
+        background-color: white;
+        color: white;
+    }
+
+    100% {
+        margin-top: 5%;
+        background-color: white;
+        color: black;
+    }
+}
+
+@keyframes go {
+    0% {
+        background-color: black;
+        color: red;
+        font-size: 14px;
+    }
+
+    100% {
+        background-color: aqua;
+        color: black;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+}
+
+@media(max-width:600px) {
+    .jinggao {
+        text-align: center;
+        color: red;
+        font-size: 20px;
+    }
+
+    .gengxin {
+        text-align: center;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        padding: 4px;
+        animation-name: move;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
+    .hr {
+        border-bottom: 8px solid black;
+        border-radius: 10px;
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+
+    .wait {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .end {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+
+        animation-name: go;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    p.a:link {
+        text-decoration: none;
+    }
+
+    p.a:visited {
+        text-decoration: none;
+    }
+
+    p.a:active {
+        text-decoration: none;
+        animation-name: go;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media(min-width:600px) {
+    .jinggao {
+        text-align: center;
+    }
+
+    .gengxin {
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        padding: 4px;
+        font-size: 20px;
+
+
+
+        animation-name: move;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+    }
+
+    .copy {
+        font-size: 13px;
+    }
+
+    .hr {
+        border-bottom: 8px solid black;
+        border-radius: 10px;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+
+    .wait {
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
+
+a:link {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
