@@ -9,7 +9,7 @@
     width: 0px;
 }
 
-@media (max-width:600px) {
+@media(max-width:600px) {
     main {
         display: none;
     }
@@ -23,8 +23,12 @@
         display: block;
         text-align: center;
         background: linear-gradient(to right top, blue, red);
+        padding: 30px;
+    }
+
+    .no-n {
         color: white;
-        font-weight: bolder
+        font-weight: bolder;
     }
 }
 
