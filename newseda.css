@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
 .im {
     font-weight: bold;
     color: #3cff00;

@@ -3,6 +3,9 @@ body {
     color: white;
 }
 
+*::-webkit-scrollbar {
+    width: 0px;
+}
 
 @media(max-width:600px) {
     .jinggao {

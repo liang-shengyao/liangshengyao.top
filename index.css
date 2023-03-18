@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
 @keyframes move {
     0% {
 
@@ -202,6 +206,7 @@ body {
         animation-iteration-count: 1;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
+        margin-top: 10%;
     }
 }
 
@@ -336,20 +341,22 @@ body {
         animation-iteration-count: 1;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
+        margin-top: 10%;
     }
 
 
 }
-
 a:link {
     color: black;
+    font-weight: bold;
 }
 
 a:visited {
     color: black;
+    font-weight: bold;
 }
 
 a:active {
     color: red;
-    text-decoration: none;
+    font-weight: bold;
 }

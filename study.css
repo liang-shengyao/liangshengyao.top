@@ -1,213 +1,217 @@
-    @media (max-width:600px) {
-        .yd {
-            display: block;
-        }
+*::-webkit-scrollbar {
+    width: 0px;
+}
 
-        .pc {
-            display: none;
-        }
-
-        .h1 {
-            background: linear-gradient(to right, red, rgb(0, 204, 255), red, rgb(0, 255, 21), red, rgb(251, 255, 0), red);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            font-size: 28px;
-        }
-
-        .zd {
-            color: rgb(255, 0, 0);
-        }
-
-        .im {
-            font-weight: bolder;
-            color: rgb(183, 0, 255);
-        }
-
-        .im-m {
-            font-weight: bolder;
-            color: rgb(4, 0, 255);
-        }
-
-        .began {
-            text-align: center;
-            background-color: rgb(238, 208, 238);
-            color: rgb(0, 0, 0);
-            padding-top: 1px;
-            padding-bottom: 1px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .introduction {
-            margin: 2px;
-            font-size: 19px;
-
-        }
-
-        .introduction-i {
-            font-weight: bold;
-            font-size: 20px;
-        }
-
-        .www {
-            color: rgb(25, 0, 255);
-            font-size: 20px;
-            font-weight: bolder;
-        }
-
-        .development {
-            font-size: 18px;
-        }
-
-        .development-p {
-            font-size: 25px;
-            color: red;
-            font-weight: bolder;
-            margin: 0;
-            margin-left: 5px;
-        }
-
-        .development-d {
-            margin: 10px;
-            font-size: 18px;
-        }
-
-        .footer {
-            margin-top: 10px;
-            background: linear-gradient(to right, red, blue);
-            color: white;
-            padding: 10px;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .span1 {
-            font-family: cursive;
-            font-size: 22px;
-        }
-
-        .span2 {
-            font-family: arial;
-            font-size: 19px;
-        }
+@media (max-width:600px) {
+    .yd {
+        display: block;
     }
 
-    @media (min-width:600px) {
-        .yd {
-            display: none;
-        }
+    .pc {
+        display: none;
+    }
 
-        .pc {
-            display: block;
-        }
+    .h1 {
+        background: linear-gradient(to right, red, rgb(0, 204, 255), red, rgb(0, 255, 21), red, rgb(251, 255, 0), red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 28px;
+    }
 
-        .h1 {
-            background: linear-gradient(to right, red, rgb(0, 204, 255), red, rgb(0, 255, 21), red, rgb(251, 255, 0), red);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-        }
+    .zd {
+        color: rgb(255, 0, 0);
+    }
 
-        .zd {
-            color: rgb(255, 0, 0);
-        }
+    .im {
+        font-weight: bolder;
+        color: rgb(183, 0, 255);
+    }
 
-        .im {
-            font-weight: bolder;
-            color: rgb(183, 0, 255);
-        }
+    .im-m {
+        font-weight: bolder;
+        color: rgb(4, 0, 255);
+    }
 
-        .im-m {
-            font-weight: bolder;
-            color: rgb(4, 0, 255);
-        }
+    .began {
+        text-align: center;
+        background-color: rgb(238, 208, 238);
+        color: rgb(0, 0, 0);
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-        .began2 {
-            text-align: center;
-            background-color: rgb(238, 208, 238);
-            color: rgb(0, 0, 0);
-            padding-top: 1px;
-            padding-bottom: 1px;
-            font-size: 25px;
-            font-weight: bold;
-            margin-left: 20px;
-            margin-right: 20px;
-            border-radius: 5px;
-        }
-
-        .introduction2 {
-            margin: 2px;
-            font-size: 21px;
-        }
-
-        .introduction-i2 {
-            font-weight: bold;
-            font-size: 22px;
-        }
-
-        .www2 {
-            color: rgb(25, 0, 255);
-            font-size: 26px;
-            font-weight: bolder;
-            text-align: center;
-        }
-
-        .development2 {
-            font-size: 23px;
-        }
-
-        .development-p2 {
-            font-size: 30px;
-            color: red;
-            font-weight: bolder;
-            margin: 0;
-            margin-left: 5px;
-        }
-
-        .development-d2 {
-            margin-left: 20px;
-            font-size: 22px;
-        }
-
-        .footer {
-            margin-top: 10px;
-            background: linear-gradient(to right, red, blue);
-            color: white;
-            padding: 10px;
-            border-radius: 10px;
-            font-size: 20px;
-        }
-
-        .span1 {
-            font-family: cursive;
-            font-size: 25px;
-            float: left;
-            padding-left: 20px;
-        }
-
-        .span2 {
-            font-family: arial;
-            font-size: 23px;
-            float: right;
-            padding-right: 20px;
-        }
+    .introduction {
+        margin: 2px;
+        font-size: 19px;
 
     }
 
-    a:link {
-        color: rgb(0, 255, 140);
-        text-decoration: none;
-
+    .introduction-i {
+        font-weight: bold;
+        font-size: 20px;
     }
 
-    a:visited {
-        color: rgb(22, 209, 222);
-        text-decoration: none;
+    .www {
+        color: rgb(25, 0, 255);
+        font-size: 20px;
+        font-weight: bolder;
     }
 
-    a:active {
+    .development {
+        font-size: 18px;
+    }
+
+    .development-p {
+        font-size: 25px;
+        color: red;
+        font-weight: bolder;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    .development-d {
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .footer {
+        margin-top: 10px;
+        background: linear-gradient(to right, red, blue);
         color: white;
-        text-decoration: none;
-
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
     }
+
+    .span1 {
+        font-family: cursive;
+        font-size: 22px;
+    }
+
+    .span2 {
+        font-family: arial;
+        font-size: 19px;
+    }
+}
+
+@media (min-width:600px) {
+    .yd {
+        display: none;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    .h1 {
+        background: linear-gradient(to right, red, rgb(0, 204, 255), red, rgb(0, 255, 21), red, rgb(251, 255, 0), red);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .zd {
+        color: rgb(255, 0, 0);
+    }
+
+    .im {
+        font-weight: bolder;
+        color: rgb(183, 0, 255);
+    }
+
+    .im-m {
+        font-weight: bolder;
+        color: rgb(4, 0, 255);
+    }
+
+    .began2 {
+        text-align: center;
+        background-color: rgb(238, 208, 238);
+        color: rgb(0, 0, 0);
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+    .introduction2 {
+        margin: 2px;
+        font-size: 21px;
+    }
+
+    .introduction-i2 {
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .www2 {
+        color: rgb(25, 0, 255);
+        font-size: 26px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .development2 {
+        font-size: 23px;
+    }
+
+    .development-p2 {
+        font-size: 30px;
+        color: red;
+        font-weight: bolder;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+    .development-d2 {
+        margin-left: 20px;
+        font-size: 22px;
+    }
+
+    .footer {
+        margin-top: 10px;
+        background: linear-gradient(to right, red, blue);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .span1 {
+        font-family: cursive;
+        font-size: 25px;
+        float: left;
+        padding-left: 20px;
+    }
+
+    .span2 {
+        font-family: arial;
+        font-size: 23px;
+        float: right;
+        padding-right: 20px;
+    }
+
+}
+
+a:link {
+    color: rgb(0, 255, 140);
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: rgb(22, 209, 222);
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+
+}
