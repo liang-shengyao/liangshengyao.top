@@ -4,12 +4,6 @@
     }
 }
 
-#style-1::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #555;
-}
-
 *::-webkit-scrollbar {
     width: 0px;
 }
@@ -91,6 +85,10 @@ a:active {
 }
 
 @media (min-width:600px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.904);
+    }
+
     .h1 {
         font-size: 36px;
         animation-name: move;
@@ -107,16 +105,49 @@ a:active {
     .h1-1 {
         padding: 0px;
         margin: 0px;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
+        margin-left: 10%;
+        margin-right: 10%;
         border-radius: 10px;
+        color: black;
+    }
+
+    .h1-2 {
+        font-size: small;
+        text-align: center;
     }
 
     .pc {
         display: block;
     }
 
+    .pc-main {
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        background-color: rgb(170, 164, 164);
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        font-size: large;
+    }
+
     .yd {
         display: none;
     }
 
+    .img1 {
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .img2 {
+        border: #3cff00 solid 2px;
+        margin-top: 20px
+    }
+
+    .p-1 {
+        color: white;
+        font-size: xx-small;
+        text-align: left;
+    }
 }

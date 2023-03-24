@@ -3,11 +3,7 @@ body {
     color: white;
 }
 
-#style-1::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #555;
-}
+
 
 *::-webkit-scrollbar {
     width: 0px;
@@ -352,6 +348,7 @@ body {
 
 
 }
+
 a:link {
     color: black;
     font-weight: bold;
