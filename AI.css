@@ -1,5 +1,132 @@
-body{
-    background-color: black;
-    color: white;
+body {
     text-align: center;
+}
+
+@media (max-width:600px) {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .h1 {
+        font-size: 20px;
+        animation-name: move;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        background: linear-gradient(to left, #3cff00 0%, #ff00dd 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+
+    .h1-1 {
+        padding: 0px;
+        margin: 0px;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .h1-2 {
+        font-size: large;
+        text-align: center;
+        font-family: arial;
+        background: linear-gradient(to right, rgb(0, 255, 242), rgb(60, 255, 0));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .h1 {
+        font-size: 36px;
+        animation-name: move;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        background: linear-gradient(to left, #3cff00 0%, #ff00dd 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+
+    .h1-1 {
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .h1-2 {
+        font-size: large;
+        text-align: center;
+        font-family: arial;
+        background: linear-gradient(to right, rgb(38, 0, 255), rgb(255, 0, 98));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .gao {
+        flex: 1;
+    }
+
+    .notice {
+        flex: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+@keyframes move {
+    0% {
+        transform: translateX(50%);
+    }
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+a:link {
+    color: #3cff00;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:visited {
+    color: #3cff00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    color: #3cff00;
+    text-decoration: none;
+    font-weight: bold;
 }
