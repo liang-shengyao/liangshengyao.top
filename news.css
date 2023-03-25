@@ -12,11 +12,10 @@ a:link {
     text-decoration: underline;
     color: rgb(22, 209, 222);
     font-weight: bold;
-
 }
 
 a:visited {
-    color: black;
+    color: rgb(49, 47, 47);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -60,6 +59,10 @@ a:active {
         text-align: center;
     }
 
+    .un {
+        margin-top: 10%;
+    }
+
 }
 
 @media (min-width:900px) {
@@ -89,14 +92,4 @@ a:active {
         text-align: center;
         letter-spacing: 30px;
     }
-
-    .news-one {
-        font-weight: bolder;
-        font-size: 36px;
-        font-family: cursive;
-    }
-}
-
-.a-r {
-    text-align: left;
 }
