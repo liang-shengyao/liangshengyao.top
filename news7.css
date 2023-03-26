@@ -69,6 +69,11 @@ a:active {
         color: black;
         font-size: xx-small;
     }
+    .v{
+        background-color: black;
+        padding: 5px;
+        
+    }
 }
 
 @media (min-width:600px) {
