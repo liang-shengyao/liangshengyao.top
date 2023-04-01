@@ -35,7 +35,7 @@ a:active {
 
 @media (max-width:600px) {
     .nr {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .pc {
@@ -72,7 +72,7 @@ a:active {
 
 @media (min-width:600px) {
     .nr {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .yd {
