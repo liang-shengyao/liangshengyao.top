@@ -98,7 +98,6 @@ a:active {
         animation-iteration-count: 1;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
-        animation-delay: 1s;
     }
 
     .h1 {
@@ -115,7 +114,6 @@ a:active {
         color: brown;
         animation-name: sx;
         animation-iteration-count: 1;
-        animation-duration: 1s;
         animation-fill-mode: forwards;
     }
 }
