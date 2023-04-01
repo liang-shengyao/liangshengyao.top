@@ -1,0 +1,121 @@
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    text-decoration: underline;
+    color: rgb(22, 209, 222);
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    @keyframes sx {
+        0% {
+            margin-top: 0%;
+        }
+
+        50% {
+            margin-top: 20%;
+            background-color: black;
+        }
+
+        100% {
+            margin-top: 0%;
+        }
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .yd {
+        font-size: 22px;
+        font-weight: bolder;
+        display: block;
+        animation-name: sx;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+
+    }
+
+    .h1 {
+        font-size: 25px;
+        font-weight: bold;
+        background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+@media (min-width:600px) {
+    @keyframes sx {
+        0% {
+            margin-top: 0%;
+        }
+
+        50% {
+            margin-top: 2%;
+            background-color: black;
+        }
+
+        100% {
+            margin-top: 0%;
+        }
+    }
+
+    .yd {
+        display: none;
+    }
+
+    .pc {
+        font-size: 25px;
+        display: block;
+        animation-name: sx;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+
+    .h1 {
+        font-size: 40px;
+        font-weight: bold;
+        background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .h2 {
+        font-size: 30px;
+        color: brown;
+        animation-name: sx;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+}
