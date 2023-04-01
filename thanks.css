@@ -1,4 +1,6 @@
-body{
+body {
+    background-color: brown;
+    color: white;
     text-align: center;
-    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
 }

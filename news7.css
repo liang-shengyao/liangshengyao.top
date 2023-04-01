@@ -4,6 +4,10 @@
     }
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 *::-webkit-scrollbar {
     width: 0px;
 }
@@ -69,10 +73,11 @@ a:active {
         color: black;
         font-size: xx-small;
     }
-    .v{
+
+    .v {
         background-color: black;
         padding: 5px;
-        
+
     }
 }
 
