@@ -56,7 +56,6 @@ a:active {
         animation-iteration-count: 1;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
-        animation-delay: 1s;
 
     }
 
@@ -98,7 +97,6 @@ a:active {
         animation-iteration-count: 1;
         animation-timing-function: ease;
         animation-fill-mode: forwards;
-        animation-delay: 1s;
     }
 
     .h1 {
