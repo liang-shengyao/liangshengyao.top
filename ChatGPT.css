@@ -1,6 +1,11 @@
 body {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ziti;
+}
+
+@font-face {
+    font-family: ziti;
+    src: url(./小米兰亭Pro.ttf);
 }
 
 @media (max-width:600px) {
