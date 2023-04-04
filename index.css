@@ -2,13 +2,8 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: ziti;
 }
 
-@font-face {
-    font-family: ziti;
-    src: url(./小米兰亭Pro.ttf);
-}
 
 *::-webkit-scrollbar {
     width: 0px;
