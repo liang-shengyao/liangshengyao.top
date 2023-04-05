@@ -1,0 +1,95 @@
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
+}
+
+body {
+    background-color: rgba(0, 255, 255, 0.664);
+    color: black;
+    text-align: center;
+    font-family: ziti;
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+a:link {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(255, 0, 212);
+}
+
+a:visited {
+    color: rgb(22, 209, 222);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+@media (max-width:600px) {
+    .h1-1 {
+        font-size: 20px;
+        background-color: rgb(255, 230, 0);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .h1 {
+        background: linear-gradient(to right, red, blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bolder;
+    }
+
+}
+
+@media (min-width:600px) {
+    .h1-1 {
+        font-size: 30px;
+        background-color: rgb(255, 230, 0);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 30%;
+        margin-right: 30%;
+
+    }
+
+    .h1 {
+        background: linear-gradient(to right, red, blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bolder;
+    }
+
+}
+
+
+.mp1 {
+    text-align: center;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(-180deg);
+}
+
+.mp2 {
+    text-align: center;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(-180deg);
+}
+
+.mp2 {
+    transform: rotateX(0deg);
+}

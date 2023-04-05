@@ -1,11 +1,16 @@
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
+}
+
+body {
+    font-family: ziti;
+}
+
 @keyframes move {
     0% {
         transform: translateX(50%);
     }
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 *::-webkit-scrollbar {

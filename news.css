@@ -1,30 +1,11 @@
-*::-webkit-scrollbar {
-    width: 0px;
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
 }
 
 body {
-    background-color: white;
-    color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a:link {
-    text-decoration: underline;
-    color: rgb(22, 209, 222);
-    font-weight: bold;
-}
-
-a:visited {
-    color: rgb(49, 47, 47);
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:active {
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
+    font-family: ziti;
+    background-color: black;
 }
 
 @keyframes move {
@@ -33,17 +14,28 @@ a:active {
     }
 }
 
-@media (max-width:600px) {
-    .nr {
-        font-size: 20px;
-    }
+*::-webkit-scrollbar {
+    width: 0px;
+}
 
+a:link {
+    text-decoration: underline;
+    color: brown;
+}
+
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
     .pc {
         display: none;
-    }
-
-    .yd {
-        display: block;
     }
 
     .h1 {
@@ -60,27 +52,41 @@ a:active {
         text-align: center;
     }
 
-    .un {
-        margin-top: 10%;
+    .yd {
+        display: block;
+        text-align: center;
+
     }
 
-    .h2 {
-        font-size: 20px;
-        color: brown;
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+
+    .p1 {
+        flex: 1;
+    }
+
+    .p2 {
+        flex: 1;
+    }
+
+    .end {
+        color: white;
     }
 }
 
 @media (min-width:600px) {
-    .nr {
-        font-size: 30px;
-    }
-
     .yd {
         display: none;
-    }
-
-    .pc {
-        display: block;
     }
 
     .h1 {
@@ -98,8 +104,41 @@ a:active {
         letter-spacing: 30px;
     }
 
-    .h2 {
-        font-size: 30px;
-        color: brown;
+    .pc {
+        display: block;
+        text-align: center;
+        display: flex;
+    }
+
+    .ads {
+        flex: 2;
+    }
+
+    .main {
+        flex: 2;
+    }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        height: 100px;
+        border-radius: 10px;
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+
+    .p1 {
+        flex: 1;
+    }
+
+    .p2 {
+        flex: 1;
+    }
+
+    .end {
+        color: white;
     }
 }

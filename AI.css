@@ -1,5 +1,39 @@
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
+}
+
 body {
+    font-family: ziti;
     text-align: center;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(50%);
+    }
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+a:link {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(255, 0, 212);
+}
+
+a:visited {
+    color: rgb(22, 209, 222);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 @media (max-width:600px) {
@@ -85,48 +119,11 @@ body {
         display: flex;
     }
 
-    .gao {
+    .gds {
         flex: 1;
     }
 
     .notice {
         flex: 2;
     }
-}
-
-
-
-
-
-
-
-
-
-@keyframes move {
-    0% {
-        transform: translateX(50%);
-    }
-}
-
-*::-webkit-scrollbar {
-    width: 0px;
-}
-
-a:link {
-    color: #3cff00;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-
-a:visited {
-    color: #3cff00;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:active {
-    color: #3cff00;
-    text-decoration: none;
-    font-weight: bold;
 }

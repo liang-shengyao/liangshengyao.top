@@ -1,9 +1,14 @@
-*::-webkit-scrollbar {
-    width: 0px;
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: ziti;
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
 }
 
 @media (max-width:600px) {

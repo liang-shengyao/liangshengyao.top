@@ -1,13 +1,13 @@
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
+}
+
 body {
     background-color: black;
     color: white;
     text-align: center;
     font-family: ziti;
-}
-
-@font-face {
-    font-family: ziti;
-    src: url(./小米兰亭Pro.ttf);
 }
 
 *::-webkit-scrollbar {
@@ -16,7 +16,7 @@ body {
 
 a:link {
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: bolder;
     color: rgb(255, 0, 212);
 }
 
@@ -29,47 +29,7 @@ a:visited {
 a:active {
     color: black;
     text-decoration: underline;
-    font-weight: bold;
-}
-
-@keyframes up {
-    0% {
-        margin-top: 80%;
-        margin-bottom: 80%;
-    }
-
-    100% {
-        margin-top: 0%;
-    }
-}
-
-@keyframes go {
-    0% {
-        margin-top: 99%;
-    }
-
-    25% {
-        margin-top: 80%;
-    }
-
-    50% {
-        margin-top: 30%;
-    }
-
-    100% {
-        margin-top: 0%;
-    }
-
-}
-
-@keyframes left {
-    0% {
-        margin-left: 80%;
-    }
-
-    100% {
-        margin-left: 20%;
-    }
+    font-weight: bolder;
 }
 
 @media (max-width:600px) {
@@ -77,33 +37,36 @@ a:active {
         display: none;
     }
 
-    .h1 {
-        font-size: 20px;
-        background-color: white;
-        color: blue;
+    .yd {
+        display: block;
+    }
+
+    .h1-1 {
+        background-color: brown;
         border-radius: 5px;
         margin-bottom: 10%;
+    }
 
-        animation-name: go;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease;
-        animation-fill-mode: forwards;
+    .h1 {
+        font-size: 20px;
     }
 
     .yd {
-        display: block;
+        font-size: 25px;
         background-color: white;
-        color: black;
-        font-size: 20px;
         border-radius: 10px;
+        height: 580px;
         padding: 10px;
+    }
 
-        animation-name: up;
-        animation-duration: 2s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease;
-        animation-fill-mode: forwards;
+    .p1 {
+        font-size: small;
+    }
+
+    .img {
+        background-color: brown;
+        border-radius: 10px;
+        padding-top: 20px;
     }
 
     .end {
@@ -112,7 +75,6 @@ a:active {
         border-radius: 8px;
         margin-top: 10%;
         text-align: center;
-        margin-top: 10%;
     }
 
     .endp {
@@ -122,28 +84,11 @@ a:active {
         color: transparent;
         font-weight: bolder;
     }
-
 }
 
-@media(min-width:600px) {
+@media (min-width:600px) {
     .yd {
         display: none;
-    }
-
-    .h1 {
-        font-size: 30px;
-        background-color: white;
-        color: blue;
-        border-radius: 5px;
-        margin-bottom: 10%;
-        margin-left: 20%;
-        margin-right: 20%;
-
-        animation-name: left;
-        animation-duration: 3s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease;
-        animation-fill-mode: forwards;
     }
 
     .pc {
@@ -153,28 +98,50 @@ a:active {
 
     .ads {
         flex: 2;
-        background-color: rgb(31, 31, 31);
     }
 
     .main {
         flex: 2;
     }
 
-    .main {
-        background-color: white;
-        color: black;
-        font-size: 30px;
+    .h1-1 {
+        background-color: brown;
         border-radius: 5px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-bottom: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+    .main {
+        font-size: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+
+    .p1 {
+        font-size: small;
+    }
+
+    .img {
+        background-color: brown;
+        border-radius: 10px;
+        padding-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .end {
         background-color: white;
         padding: 1px;
         border-radius: 8px;
-        margin-top: 10%;
         text-align: center;
+        margin-top: 2%;
         margin-left: 20%;
         margin-right: 20%;
     }
@@ -184,6 +151,7 @@ a:active {
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        font-size: 25px;
+        font-weight: bolder;
+        font-size: 20px;
     }
 }
