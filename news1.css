@@ -3,6 +3,10 @@
     src: url(./ziti.ttf);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *::-webkit-scrollbar {
     width: 0px;
 }
@@ -38,7 +42,12 @@ a:active {
             margin-top: 0%;
         }
 
-        50% {
+        25% {
+            margin-top: 20%;
+            background-color: brown;
+        }
+
+        75% {
             margin-top: 20%;
             background-color: yellow;
         }
@@ -80,7 +89,12 @@ a:active {
             margin-top: 0%;
         }
 
-        50% {
+        25% {
+            margin-top: 5%;
+            background-color: brown;
+        }
+
+        75% {
             margin-top: 5%;
             background-color: yellow;
         }

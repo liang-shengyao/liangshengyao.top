@@ -7,6 +7,10 @@ body {
     font-family: ziti;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *::-webkit-scrollbar {
     width: 0px;
 }
@@ -96,7 +100,7 @@ body {
     }
 
     .span1 {
-        font-family: cursive;
+        font-family: ziti;
         font-size: 22px;
     }
 
@@ -193,7 +197,7 @@ body {
     }
 
     .span1 {
-        font-family: cursive;
+        font-family: ziti;
         font-size: 25px;
         float: left;
         padding-left: 20px;

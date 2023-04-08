@@ -13,6 +13,10 @@ body {
     font-family: ziti;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *::-webkit-scrollbar {
     width: 0px;
 }
