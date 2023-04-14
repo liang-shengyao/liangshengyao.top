@@ -1,0 +1,62 @@
+@font-face {
+    font-family: ziti;
+    src: url(./ziti.ttf);
+}
+
+body {
+    font-family: ziti;
+}
+
+.h1-1 {
+    color: brown;
+}
+
+.p1 {
+    color: dodgerblue;
+    font-size: larger;
+}
+
+.p2 {
+    color: rgb(255, 239, 177);
+    background-color: rgb(86, 168, 4);
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.p3 {
+    color: black;
+}
+
+.p4 {
+    color: white;
+}
+
+
+@media (max-width:600px) {
+    .h1 {
+        text-align: center;
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .ads {
+        flex: 2;
+    }
+
+    .main {
+        flex: 2;
+    }
+
+    .p1-1 {
+        margin-left: 10px;
+    }
+}
