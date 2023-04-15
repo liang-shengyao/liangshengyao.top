@@ -8,7 +8,7 @@ body {
     color: white;
     text-align: center;
     font-family: ziti;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 body {
@@ -38,14 +38,6 @@ a:active {
 }
 
 @media (max-width:600px) {
-    .pc {
-        display: none;
-    }
-
-    .yd {
-        display: block;
-    }
-
     .h1-1 {
         background-color: brown;
         border-radius: 5px;
@@ -55,14 +47,13 @@ a:active {
         font-size: 20px;
     }
 
-    .yd {
+    .main {
         font-size: 25px;
         background-color: white;
         border-radius: 10px;
-        height: 500px;
+        height: 250px;
         padding: 10px;
     }
-
 
     .end {
         background-color: white;
@@ -81,12 +72,7 @@ a:active {
 }
 
 @media (min-width:600px) {
-    .yd {
-        display: none;
-    }
-
-    .pc {
-        display: block;
+    .main-m {
         display: flex;
     }
 
@@ -115,7 +101,6 @@ a:active {
         background-color: white;
         border-radius: 10px;
         padding: 10px;
-
     }
 
     .end {
