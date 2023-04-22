@@ -33,6 +33,14 @@ body {
     color: white;
 }
 
+.p5 {
+    color: green;
+}
+
+.p6 {
+    color: brown;
+}
+
 a:link {
     text-decoration: underline;
     color: rgb(255, 239, 177);

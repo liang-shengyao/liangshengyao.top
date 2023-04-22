@@ -1,8 +1,7 @@
 @font-face {
     font-family: ziti;
-    src: url(./ziti.ttf);
+    src: url(https://liangshengyao.top/ziti.ttf);
 }
-
 @keyframes move {
     0% {
         transform: translateX(50%);

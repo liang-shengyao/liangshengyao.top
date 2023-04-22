@@ -1,77 +1,72 @@
 @font-face {
     font-family: ziti;
-    src: url(./ziti.ttf);
-}
-
-body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: ziti;
-    overflow-x: hidden;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-*::-webkit-scrollbar {
-    width: 0px;
+    src: url(https://liangshengyao.top/ziti.ttf);
 }
 
 a:link {
-    text-decoration: underline;
     font-weight: bolder;
     color: green;
 }
 
 a:visited {
-    color: blue;
-    text-decoration: underline;
+    color: green;
     font-weight: bolder;
 }
 
 a:active {
-    color: black;
-    text-decoration: underline;
+    color: green;
     font-weight: bolder;
 }
 
-@media (max-width:600px) {
-    .h1-1 {
-        background-color: brown;
-        border-radius: 5px;
+@media(max-width:600px) {
+
+    html,
+    body {
+        height: 100%;
+        font-family: ziti;
+        text-align: center;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
-    .h1 {
+    .up {
         font-size: 20px;
+        background-color: brown;
+        border-radius: 5px;
     }
 
     .main {
         font-size: 25px;
         background-color: white;
         border-radius: 10px;
-        height: 250px;
         padding: 10px;
     }
 
     .end {
-        background-color: white;
-        text-align: center;
+        font-size: 18px;
+        background-color: brown;
         border-radius: 5px;
-        font-size: 20px;
-    }
-
-    .endp {
-        background: linear-gradient(to right, red, blue);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        font-weight: bolder;
     }
 }
 
-@media (min-width:600px) {
+@media(min-width:600px) {
+
+    html,
+    body {
+        height: 100%;
+        font-family: ziti;
+        text-align: center;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
     .main-m {
         display: flex;
     }
@@ -84,16 +79,12 @@ a:active {
         flex: 2;
     }
 
-    .h1-1 {
+    .up {
+        font-size: 20px;
         background-color: brown;
         border-radius: 5px;
-        margin-bottom: 2%;
         margin-left: 20%;
         margin-right: 20%;
-    }
-
-    .h1 {
-        font-size: 20px;
     }
 
     .main {
@@ -104,23 +95,10 @@ a:active {
     }
 
     .end {
-        background-color: white;
+        font-size: 20px;
+        background-color: brown;
         border-radius: 5px;
-        text-align: center;
         margin-left: 20%;
         margin-right: 20%;
-        margin-top: 2%;
-        font-size: 20px;
-        font-weight: 700;
-        height: 27px;
-    }
-
-    .endp {
-        background: linear-gradient(to right, red, blue);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        font-weight: bolder;
-        font-size: 20px;
     }
 }
