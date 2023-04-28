@@ -72,7 +72,7 @@ a:active {
         align-self: center;
         justify-content: center;
         width: 300px;
-        height: 150px;
+        height: 100px;
         border-radius: 10px;
         background-color: white;
         padding: 5px;
@@ -131,7 +131,7 @@ a:active {
         flex-direction: column;
         align-self: center;
         justify-content: center;
-        height: 150px;
+        height: 100px;
         border-radius: 10px;
         background-color: white;
         padding: 5px;

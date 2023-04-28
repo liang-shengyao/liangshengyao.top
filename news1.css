@@ -3,16 +3,6 @@
     src: url(https://liangshengyao.top/ziti.ttf);
 }
 
-@keyframes move {
-    0% {
-        transform: translateX(50%);
-    }
-}
-
-body {
-    font-family: ziti;
-}
-
 body {
     overflow-x: hidden;
 }
@@ -21,52 +11,50 @@ body {
     width: 0px;
 }
 
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: ziti;
+}
+
 a:link {
-    color: #3cff00;
-    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(22, 209, 222);
     font-weight: bold;
-    margin-left: 20px;
 }
 
 a:visited {
-    color: #3cff00;
+    color: rgb(49, 47, 47);
     text-decoration: none;
-    font-weight: bold;
-    margin-left: 20px;
+    font-weight: bolder;
 }
 
 a:active {
-    color: #3cff00;
+    color: red;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 20px;
 }
 
-@media(max-width:600px) {
-    .h1 {
-        font-size: 25px;
-        animation-name: move;
-        animation-iteration-count: 1;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-        background: linear-gradient(to left, #3cff00 0%, #ff00dd 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        text-align: center;
-    }
+@media (max-width:600px) {
+    @keyframes sx {
+        0% {
+            margin-top: 0%;
+        }
 
-    .h1-1 {
-        padding: 0px;
-        margin: 0px;
-        background-color: black;
-        border-radius: 10px;
-        color: white;
-    }
+        25% {
+            margin-top: 20%;
+            background-color: brown;
+        }
 
-    .h1-2 {
-        font-size: small;
-        text-align: center;
+        75% {
+            margin-top: 20%;
+            background-color: yellow;
+        }
+
+        100% {
+            margin-top: 0%;
+        }
     }
 
     .pc {
@@ -74,93 +62,77 @@ a:active {
     }
 
     .yd {
+        font-size: 22px;
+        font-weight: bolder;
         display: block;
-        line-height: 25px;
+        animation-name: sx;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+
     }
 
-    .img1 {
-        text-align: center;
-        border-radius: 10px;
-        background-color: black;
-    }
-
-    .img2 {
-        border: #3cff00 solid 2px;
-        margin-top: 20px;
-    }
-
-    .p-1 {
-        color: white;
-        font-size: xx-small;
-        text-align: left;
+    .h1 {
+        font-size: 25px;
+        font-weight: bold;
+        background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
     }
 }
 
 @media (min-width:600px) {
-    body {
-        background-color: rgba(0, 0, 0, 0.904);
-    }
+    @keyframes sx {
+        0% {
+            margin-top: 0%;
+        }
 
-    .h1 {
-        font-size: 36px;
-        animation-name: move;
-        animation-iteration-count: 1;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-        background: linear-gradient(to left, #3cff00 0%, #ff00dd 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        text-align: center;
-    }
+        25% {
+            margin-top: 5%;
+            background-color: brown;
+        }
 
-    .h1-1 {
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(255, 255, 255);
-        margin-left: 10%;
-        margin-right: 10%;
-        border-radius: 10px;
-        color: black;
-    }
+        75% {
+            margin-top: 5%;
+            background-color: yellow;
+        }
 
-    .h1-2 {
-        font-size: small;
-        text-align: center;
-    }
-
-    .pc {
-        display: block;
-        display: flex;
-        color: white;
-        font-size: large;
-    }
-
-    .main {
-        flex: 2;
-    }
-
-    .gao {
-        flex: 1;
+        100% {
+            margin-top: 0%;
+        }
     }
 
     .yd {
         display: none;
     }
 
-    .img1 {
-        text-align: center;
-        border-radius: 10px;
+    .pc {
+        font-size: 25px;
+        display: block;
+        animation-name: sx;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
     }
 
-    .img2 {
-        border: #3cff00 solid 2px;
-        margin-top: 20px
+    .h1 {
+        font-size: 40px;
+        font-weight: bold;
+        background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
     }
 
-    .p-1 {
-        color: white;
-        font-size: xx-small;
-        text-align: left;
+    .h2 {
+        font-size: 30px;
+        color: brown;
+        animation-name: sx;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
 }
