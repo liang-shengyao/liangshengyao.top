@@ -8,9 +8,8 @@
         transform: translateX(50%);
     }
 }
-
 body {
-    font-family: ziti;
+    font-family: ziti, sans-serif, cursive;
 }
 
 body {

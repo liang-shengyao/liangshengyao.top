@@ -3,6 +3,10 @@
     src: url(https://liangshengyao.top/ziti.ttf);
 }
 
+body {
+    font-family: ziti, sans-serif, cursive;
+}
+
 a:link {
     font-weight: bolder;
     color: green;

@@ -4,9 +4,8 @@
 }
 
 body {
-    font-family: ziti;
+    font-family: ziti, sans-serif, cursive;
 }
-
 .h1-1 {
     color: brown;
 }

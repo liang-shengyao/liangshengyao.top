@@ -2,6 +2,7 @@
     font-family: ziti;
     src: url(https://liangshengyao.top/ziti.ttf);
 }
+
 @keyframes move {
     0% {
         transform: translateX(50%);
@@ -9,7 +10,7 @@
 }
 
 body {
-    font-family: ziti;
+    font-family: ziti, sans-serif, cursive;
 }
 
 body {
