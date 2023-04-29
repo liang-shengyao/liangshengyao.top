@@ -27,7 +27,8 @@ a:active {
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+
     }
 
     .up {
@@ -48,6 +49,14 @@ a:active {
         color: rgb(255, 239, 177);
         background-color: brown;
     }
+
+    .up {
+        margin-bottom: 30%;
+    }
+
+    .down {
+        margin-top: 30%;
+    }
 }
 
 @media (min-width:600px) {
@@ -59,7 +68,8 @@ a:active {
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+
 
     }
 
@@ -96,5 +106,13 @@ a:active {
         background-color: brown;
         margin-left: 20%;
         margin-right: 20%;
+    }
+
+    .up {
+        margin-bottom: 8%;
+    }
+
+    .down {
+        margin-top: 8%;
     }
 }
