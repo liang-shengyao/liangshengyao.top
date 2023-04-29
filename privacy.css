@@ -1,0 +1,103 @@
+@font-face {
+    font-family: ziti;
+    src: url(https://liangshengyao.top/ziti.ttf);
+}
+
+body {
+    font-family: ziti, sans-serif, cursive;
+}
+
+.h1 {
+    text-align: center;
+    color: brown;
+}
+
+.timu {
+    font-weight: bolder;
+    text-indent: 0;
+    font-size: larger;
+}
+
+.red {
+    color: brown;
+}
+
+.no {
+    color: rgb(134, 134, 134);
+}
+
+@media (max-width:600px) {
+    .main {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .up {
+        margin: 20px;
+    }
+
+    body {
+        text-align: justify;
+        text-justify: inter-ideograph;
+        text-indent: 1em;
+    }
+
+    .end {
+        color: green;
+        text-align: center;
+        text-indent: 0;
+        font-weight: bolder;
+    }
+
+    .down {
+        font-weight: bolder;
+        text-indent: 0;
+        color: brown;
+    }
+
+    .import {
+        color: rgb(0, 121, 151);
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+}
+
+@media(min-width:600px) {
+    .main {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 10px;
+    }
+
+    .up {
+        margin: 50px;
+    }
+
+    body {
+        text-align: justify;
+        text-justify: inter-ideograph;
+        text-indent: 2em;
+    }
+
+    .end {
+        text-align: center;
+        color: green;
+        font-weight: bolder;
+        text-indent: 0;
+        font-size: larger;
+    }
+
+    .down {
+        font-weight: bolder;
+        text-indent: 0;
+        color: brown;
+    }
+
+    .import {
+        color: rgb(0, 121, 151);
+        font-weight: bolder;
+        font-size: x-large;
+    }
+}
