@@ -59,4 +59,8 @@ a:active {
         text-justify: inter-ideograph;
         text-indent: 5em;
     }
+
+    .down {
+        text-align: center;
+    }
 }
