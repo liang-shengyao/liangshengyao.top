@@ -15,158 +15,158 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4291509227845217"
         crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: ziti;
+            src: url(https://liangshengyao.top/ziti.ttf);
+        }
+
+        body {
+            font-family: ziti, sans-serif, cursive;
+            background-color: black;
+            text-align: center;
+        }
+
+
+        @keyframes move {
+            0% {
+                transform: translateX(50%);
+            }
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        *::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        a:link {
+            text-decoration: underline;
+            color: brown;
+        }
+
+        a:visited {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        @media (max-width:600px) {
+            .pc {
+                display: none;
+            }
+
+            .h1 {
+                font-size: 25px;
+                font-weight: bold;
+                animation-name: move;
+                animation-iteration-count: 1;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                text-align: center;
+            }
+
+            .yd {
+                display: block;
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                align-items: center;
+
+            }
+
+            .news {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                justify-content: center;
+                width: 300px;
+                border-radius: 10px;
+                background-color: white;
+                margin-bottom: 25px;
+            }
+
+            .p1 {
+                flex: 1;
+            }
+
+            .p2 {
+                flex: 1;
+            }
+
+            .end {
+                color: white;
+            }
+        }
+
+        @media (min-width:600px) {
+            .yd {
+                display: none;
+            }
+
+            .h1 {
+                font-size: 40px;
+                font-weight: bold;
+                animation-name: move;
+                animation-iteration-count: 1;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                text-align: center;
+                letter-spacing: 30px;
+            }
+
+            .pc {
+                display: block;
+                text-align: center;
+                display: flex;
+            }
+
+            .ads {
+                flex: 2;
+            }
+
+            .main {
+                flex: 2;
+            }
+
+            .news {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                justify-content: center;
+                border-radius: 10px;
+                background-color: white;
+                margin-bottom: 25px;
+            }
+
+            .p1 {
+                flex: 1;
+            }
+
+            .p2 {
+                flex: 1;
+            }
+
+            .end {
+                color: white;
+            }
+        }
+    </style>
 </head>
-<style>
-    @font-face {
-        font-family: ziti;
-        src: url(https://liangshengyao.top/ziti.ttf);
-    }
-
-    body {
-        font-family: ziti, sans-serif, cursive;
-        background-color: black;
-        text-align: center;
-    }
-
-
-    @keyframes move {
-        0% {
-            transform: translateX(50%);
-        }
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    *::-webkit-scrollbar {
-        width: 0px;
-    }
-
-    a:link {
-        text-decoration: underline;
-        color: brown;
-    }
-
-    a:visited {
-        color: black;
-        text-decoration: underline;
-    }
-
-    a:active {
-        color: yellow;
-        text-decoration: underline;
-    }
-
-    @media (max-width:600px) {
-        .pc {
-            display: none;
-        }
-
-        .h1 {
-            font-size: 25px;
-            font-weight: bold;
-            animation-name: move;
-            animation-iteration-count: 1;
-            animation-duration: 1s;
-            animation-fill-mode: forwards;
-            background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            text-align: center;
-        }
-
-        .yd {
-            display: block;
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            align-items: center;
-
-        }
-
-        .news {
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            justify-content: center;
-            width: 300px;
-            border-radius: 10px;
-            background-color: white;
-            margin-bottom: 25px;
-        }
-
-        .p1 {
-            flex: 1;
-        }
-
-        .p2 {
-            flex: 1;
-        }
-
-        .end {
-            color: white;
-        }
-    }
-
-    @media (min-width:600px) {
-        .yd {
-            display: none;
-        }
-
-        .h1 {
-            font-size: 40px;
-            font-weight: bold;
-            animation-name: move;
-            animation-iteration-count: 1;
-            animation-duration: 1s;
-            animation-fill-mode: forwards;
-            background: linear-gradient(to left, #0000ff 0%, #ff0066 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            text-align: center;
-            letter-spacing: 30px;
-        }
-
-        .pc {
-            display: block;
-            text-align: center;
-            display: flex;
-        }
-
-        .ads {
-            flex: 2;
-        }
-
-        .main {
-            flex: 2;
-        }
-
-        .news {
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            justify-content: center;
-            border-radius: 10px;
-            background-color: white;
-            margin-bottom: 25px;
-        }
-
-        .p1 {
-            flex: 1;
-        }
-
-        .p2 {
-            flex: 1;
-        }
-
-        .end {
-            color: white;
-        }
-    }
-</style>
 
 <body>
     <h1 class="h1">新&nbsp;&nbsp;&nbsp;闻</h1>
