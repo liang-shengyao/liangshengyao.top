@@ -22,6 +22,21 @@ a:active {
     font-weight: bolder;
 }
 
+.red a:link {
+    color: red;
+    font-weight: bolder;
+}
+
+.red a:visited {
+    color: red;
+    font-weight: bolder;
+}
+
+.red a:active {
+    color: red;
+    font-weight: bolder;
+}
+
 @media(max-width:600px) {
 
     html,

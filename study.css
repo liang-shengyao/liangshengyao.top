@@ -8,18 +8,18 @@ body {
 }
 
 a:link {
-    text-decoration: underline;
-    color: white;
+    font-weight: bolder;
+    color: green;
 }
 
 a:visited {
-    color: white;
-    text-decoration: underline;
+    color: green;
+    font-weight: bolder;
 }
 
 a:active {
-    color: white;
-    text-decoration: underline;
+    color: green;
+    font-weight: bolder;
 }
 
 @media (max-width:600px) {
@@ -29,6 +29,8 @@ a:active {
         height: 100%;
         font-family: ziti;
         text-align: center;
+        background-color: black;
+        color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -37,21 +39,21 @@ a:active {
 
     .up {
         font-size: 20px;
-        color: rgb(255, 239, 177);
         background-color: brown;
+        border-radius: 5px;
     }
 
     .main {
-        padding: 10px;
         font-size: 25px;
-        border-radius: 5px;
-        background-color: rgb(86, 168, 4);
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
     }
 
     .down {
-        font-size: 20px;
-        color: rgb(255, 239, 177);
+        font-size: 18px;
         background-color: brown;
+        border-radius: 5px;
     }
 
     .up {
@@ -70,10 +72,11 @@ a:active {
         height: 100%;
         font-family: ziti;
         text-align: center;
+        background-color: black;
+        color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
-
 
     }
 
@@ -91,23 +94,23 @@ a:active {
 
     .up {
         font-size: 20px;
-        color: rgb(255, 239, 177);
         background-color: brown;
+        border-radius: 5px;
         margin-left: 20%;
         margin-right: 20%;
     }
 
     .main {
-        padding: 10px;
         font-size: 25px;
-        border-radius: 5px;
-        background-color: rgb(86, 168, 4);
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
     }
 
     .down {
         font-size: 20px;
-        color: rgb(255, 239, 177);
         background-color: brown;
+        border-radius: 5px;
         margin-left: 20%;
         margin-right: 20%;
     }
