@@ -1,0 +1,108 @@
+@font-face {
+    font-family: ziti;
+    src: url(https://liangshengyao.top/ziti.ttf);
+}
+
+body {
+    font-family: ziti;
+    background-color: black;
+}
+
+@media (max-width:600px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .up {
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+
+    .main {
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .p {
+        height: 22px;
+        text-align: center;
+    }
+
+    .img {
+        vertical-align: middle;
+    }
+
+    .down {
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+}
+
+@media (min-width:600px) {
+    .up {
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+
+    .main-m {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        width: 280px;
+        height: 280px;
+        margin: auto;
+    }
+
+    .main {
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .p {
+        height: 22px;
+        text-align: center;
+    }
+
+    .img {
+        vertical-align: middle;
+    }
+
+    .down {
+        font-size: 20px;
+        text-align: center;
+        background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+}
